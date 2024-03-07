@@ -15,12 +15,12 @@ function ProjectCards(props) {
         </Card.Text>
         <Button variant="primary" href={props.ghLink} target="_blank">
           <BsGithub /> &nbsp;
-          {props.isBlog ? "Blog" : "GitHub"}
+          {props.isBlog ? "InfiniteLinks" : "GitHub"}
         </Button>
         {"\n"}
         {"\n"}
 
-        {/* If the component contains Demo link and if it's not a Blog then, it will render the below component  */}
+        {/* If the component contains Demo link and if it's not a InfiniteLinks then, it will render the below component  */}
 
         {!props.isBlog && props.demoLink && (
           <Button
