@@ -3,10 +3,10 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import Snapshot from "../../Assets/Projects/Snapshot.png";
-import emotion from "../../Assets/Projects/emotion.png";
+import Portfolio from "../../Assets/Projects/Portfolio.png";
 import FlixHive from "../../Assets/Projects/FlixHive.png";
 import MelodyStream from "../../Assets/Projects/MelodyStream.png";
-import suicide from "../../Assets/Projects/suicide.png";
+import CottonCandy from "../../Assets/Projects/CottonCandy.png";
 import bitsOfCode from "../../Assets/Projects/InfiniteLinks.png";
 
 function Projects() {
@@ -67,24 +67,23 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={CottonCandy}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="🍭 CottonCandy 🌈"
+              description="Step into the whimsical world of CottonCandy, a digital haven crafted to add a touch of sweetness to your online experience. Here, every click is a sprinkle of joy, and every interaction is as delightful as your favorite treat."
+              ghLink="https://github.com/Tanikete/Cotton-Candy"
+              demoLink="https://cotton-candy-ten.vercel.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={Portfolio}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://InfiniteLinks.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="🚀 PortFolio💡"
+              description="Greetings! I'm Tanikete Sookeera, a passionate Web Developer dedicated to bringing ideas to life through the digital canvas. This portfolio is a glimpse into my journey of creativity, innovation, and relentless pursuit of excellence."
+              ghLink="https://github.com/Tanikete/Portfolio"
+              demoLink="https://portfolio-vert-kappa-18.vercel.app/" 
             />
           </Col>
         </Row>
