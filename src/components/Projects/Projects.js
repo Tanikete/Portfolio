@@ -25,10 +25,10 @@ function Projects() {
             <ProjectCard
               imgPath={MelodyStream}
               isBlog={false}
-              title="MelodyStream"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/MelodyStream"
-              demoLink="https://MelodyStream-49.web.app/"
+              title="🎶 MelodyStream 🎶"
+              description="Dive into a world of seamless tunes and musical wonders with MelodyStream. We are not just a music streaming platform; we are your gateway to a symphony of emotions, a playlist of memories, and a soundtrack to your life."
+              ghLink="https://github.com/Tanikete/MelodyStream"
+              demoLink="https://melody-stream.vercel.app/"
             />
           </Col>
 
@@ -36,10 +36,10 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal InfiniteLinks page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write InfiniteLinks using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://InfiniteLinks.soumya-jit.tech/"
+              title="🌐 InfiniteLinks 🌐"
+              description="InfiniteLink is not just a website; it's your digital universe of endless possibilities. Seamlessly blending social networking with boundless sharing, InfiniteLink is where connections thrive, ideas flourish, and creativity knows no bounds"
+              ghLink="https://github.com/nazianah/infiniteLinks"
+              demoLink="https://infinite-links.vercel.app/"
             />
           </Col>
 
@@ -47,10 +47,10 @@ function Projects() {
             <ProjectCard
               imgPath={FlixHive}
               isBlog={false}
-              title="FlixHive"
-              description="Online code and markdown FlixHive build with react.js. Online FlixHive which supports html, css, and js code with instant view of website. Online markdown FlixHive for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the FlixHive supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/FlixHive"
-              demoLink="https://FlixHive.soumya-jit.tech/"              
+              title="🍿 FlixHive 🎬"
+              description="Dive into the world of entertainment like never before with FlixHive - your ultimate destination for movies and series. We've curated a hive of cinematic wonders, ready for you to explore, discover, and enjoy."
+              ghLink="https://github.com/Tanikete/FlixHive"
+              demoLink="https://flix-hive-37o4.vercel.app/"              
             />
           </Col>
 
@@ -58,10 +58,10 @@ function Projects() {
             <ProjectCard
               imgPath={Snapshot}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="📷 SnapShot 🌐"
+              description="Step into a world where images speak louder than words. Snapshot is your gateway to a vast visual universe, where you can search, find, and capture the essence of any moment. Empower your imagination and embark on a journey of visual discovery."
+              ghLink="https://github.com/Tanikete/snapshot"
+              demoLink="https://snapshot-brown.vercel.app/"
             />
           </Col>
 
